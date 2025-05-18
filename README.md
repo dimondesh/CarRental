@@ -1,4 +1,4 @@
-# 🚗 Car Rental Hourly Service
+# 🚗 Rental Car Hourly Service
 
 ![Car Rental Banner](https://res.cloudinary.com/dy9lhvzsl/image/upload/v1747563269/Banner_qgiave.jpg)
 
@@ -27,10 +27,10 @@ Follow these simple steps to run the project locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/dimondesh/CarRental.git
+git clone https://github.com/dimondesh/RentalCar.git
 
 # 2. Navigate to the project folder
-cd CarRental
+cd RentalCar
 
 # 3. Install dependencies
 npm install
