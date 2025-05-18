@@ -27,10 +27,10 @@ Follow these simple steps to run the project locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/dimondesh/RentalCar.git
+git clone https://github.com/dimondesh/CarRental.git
 
 # 2. Navigate to the project folder
-cd RentalCar
+cd CarRental
 
 # 3. Install dependencies
 npm install
