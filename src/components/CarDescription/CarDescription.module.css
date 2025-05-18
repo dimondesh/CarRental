@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text {
+    color: #1f2937;
+    font-size: 14px;
+}

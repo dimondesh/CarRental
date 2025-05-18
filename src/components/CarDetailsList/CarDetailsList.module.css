@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+
+    color: #101828;
+}
+
+ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-items: center;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    margin-right: 8px;
+
+    width: 16px;
+    height: 16px;
+
+    display: inline-block;
+
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #101828;
+}
+
+.specsList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

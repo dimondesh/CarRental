@@ -1,0 +1,74 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.titleWrapper {
+  display: flex;
+
+  align-items: baseline;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.icon {
+  margin-right: 4px;
+
+
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.mileage {
+  padding-left: 16px;
+}
+
+.id {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #8d929a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 16px;
+
+
+
+}
+
+.subtext {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: #101828;
+  display: flex;
+  align-items: center;
+ 
+
+}
+
+.price {
+  font-size: 24px;
+
+  font-weight: 600;
+  line-height: 1.33;
+  color: #3470ff;
+  margin-top: 16px;
+}
+
+.description {
+  font-size: 16px;
+  color: #101828;
+  margin-top: 32px;
+  line-height: 1.25;
+  font-weight: 500;
+  margin-bottom: 68px;
+}

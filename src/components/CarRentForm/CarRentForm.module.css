@@ -1,0 +1,130 @@
+.container {
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    padding: 32px;
+    background-color: #fff;
+    width: 640px;
+    margin: 0 auto;
+    max-width: 640px;
+    box-sizing: border-box;
+
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #101828;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #8d929a;
+    margin-bottom: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.input,
+.textarea {
+    padding: 16px 20px;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #111827;
+    outline: none;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: #8d929a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: "Manrope", sans-serif;
+}
+
+.textarea {
+    min-height: 88px;
+    padding: 12px 20px;
+    max-height: 88px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    background: #3470ff;
+    color: #fff;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    max-height: 44px;
+    margin: 10px auto 0;
+
+}
+
+.button:hover {
+    background: linear-gradient(to right, #275EFE, #1e4ed8);
+}
+
+.calendar {
+    border: 1px solid #3470FF !important;
+    border-radius: 12px !important;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.react-datepicker__header {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.react-datepicker__current-month {
+    font-weight: 600;
+    font-size: 16px;
+    color: #111827;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #3470FF !important;
+    color: white !important;
+    border-radius: 50% !important;
+}
+
+.react-datepicker__day {
+    border-radius: 50% !important;
+}
+
+.react-datepicker__day:hover {
+    background-color: #e0e7ff;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input,
+.textarea {
+    font-family: "Manrope", sans-serif;
+    color: #8d929a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}

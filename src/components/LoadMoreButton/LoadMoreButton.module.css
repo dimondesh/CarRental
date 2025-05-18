@@ -1,0 +1,39 @@
+.loadMore {
+  display: block;
+  margin: 80px auto 124px;
+  padding: 10px 36px;
+  background-color: white;
+  color: #101828;
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.loadMore:hover {
+  border-color: #0b44cd;
+}
+
+.loadMore:disabled {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-top-color: #3470ff;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
