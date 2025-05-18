@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import DatePicker from 'react-datepicker';
+import DatePicker, { registerLocale } from 'react-datepicker';
+import enGB from 'date-fns/locale/en-GB';
 import 'react-datepicker/dist/react-datepicker.css';
 import styles from './CarRentForm.module.css';
 import { toast } from 'react-toastify';
-
+registerLocale('en-GB', enGB);
 function CarRentForm() {
     const [startDate, setStartDate] = useState(null);
     const [formData, setFormData] = useState({
@@ -58,7 +59,11 @@ function CarRentForm() {
                     className={styles.input}
                     calendarClassName={styles.calendar}
                     dateFormat="dd MMMM yyyy"
+                    weekStartsOn="1"
+                    locale="en-GB"
                     required
+                    popperPlacement='bottom'
+                    
                 />
                 <textarea
                     name="comment"
